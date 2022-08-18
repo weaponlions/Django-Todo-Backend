@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-h6bsidcrtv$7w2%yenknx7o)_u#68!gw5k7=g)#leav*a&r4_+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://todobackendes.herokuapp.com/', 'localhos', '127.0.0.1']
+ALLOWED_HOSTS = ['https://backendapitodo.herokuapp.com/', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -81,13 +81,14 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'notes',
-        'USER': 'postgres',
-        'PASSWORD': 'dell',
-        'HOST': 'localhost',
+        'NAME': 'd5drbbc7v4rimi',
+        'USER': 'igcstkmzktzfcu',
+        'PASSWORD': '937758f2e35d8071669ba278c55b70b9def1c15dd8379ba15e1926514208fbc8',
+        'HOST': 'ec2-54-80-123-146.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
